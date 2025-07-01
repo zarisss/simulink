@@ -17,8 +17,6 @@ This project implements a custom 1D Kalman Filter in MATLAB/Simulink and compare
 - Simulink block design
 
 ## 🗂 File Structure
-- `Simulink/`: Contains simulation `.slx` files and plots
-- `MATLAB/`: MATLAB function files used inside Simulink
 - `Docs/`: Screenshots and figures
 
 ## 📊 Results
