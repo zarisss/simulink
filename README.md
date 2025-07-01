@@ -22,7 +22,7 @@ This project implements a custom 1D Kalman Filter in MATLAB/Simulink and compare
 - `Docs/`: Screenshots and figures
 
 ## 📊 Results
-![KF Comparison](docs/comparison)
+![KF Comparison](docs/comparison.png)
 
 ## 📦 Requirements
 - MATLAB R202x
