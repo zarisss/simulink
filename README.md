@@ -1,4 +1,3 @@
-# simulink
 #  Kalman Filter Simulation in Simulink
 
 This project implements a custom 1D Kalman Filter in MATLAB/Simulink and compares it with the built-in Simulink Kalman Filter block. The system is tested using a mass-spring-damper model with a noisy position sensor.
