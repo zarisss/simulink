@@ -7,7 +7,7 @@ This repository is a collection of control systems and state estimation projects
 ## 📂 Project Directory
 
 ### 1. 🌀 Kalman Filter - Mass Spring Damper System
-**Path:** `projects/mass_spring_kf/`
+**Path:** `kf and shm`
 
 - **Description:** Implements a discrete-time Kalman Filter on a 1-DOF mass-spring-damper system.
 - **Goal:** Estimate position and velocity using noisy measurements and compare with ground truth.
@@ -20,7 +20,7 @@ This repository is a collection of control systems and state estimation projects
 ---
 
 ### 2. 🎯 Inverted Pendulum on Cart - PID Control
-**Path:** `projects/inverted_pendulum_pid/`
+**Path:** `inverted`
 
 - **Description:** Simulates a nonlinear inverted pendulum model and stabilizes it using a PID controller.
 - **Goal:** Maintain pendulum at 180° (upright) using torque input via cart motion.
