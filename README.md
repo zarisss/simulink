@@ -7,15 +7,13 @@ This repository is a collection of control systems and state estimation projects
 ## 📂 Project Directory
 
 ### 1. 🌀 Kalman Filter - Mass Spring Damper System
-**Path:** `kf and shm`
+**Path:** `kf and shm/`
 
 - **Description:** Implements a discrete-time Kalman Filter on a 1-DOF mass-spring-damper system.
 - **Goal:** Estimate position and velocity using noisy measurements and compare with ground truth.
 - **Contents:**
-  - `kf_model.slx` – Simulink implementation
-  - `KF.m` – MATLAB code for custom Kalman filter logic
-  - `figures/` – Estimation result plots
-  - `docs/` – Notes, equations, and reasoning
+  - `Simulink/kalman_simulink.slx` – Simulink implementation
+  - `Docs/` – Estimation result plots
 
 ---
 
