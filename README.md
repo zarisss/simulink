@@ -1,36 +1,32 @@
-#  Kalman Filter Simulation in Simulink
+# 🤖 Control Systems & Estimation Projects — MATLAB & Simulink
 
-This project implements a custom 1D Kalman Filter in MATLAB/Simulink and compares it with the built-in Simulink Kalman Filter block. The system is tested using a mass-spring-damper model with a noisy position sensor.
+This repository is a collection of control systems and state estimation projects implemented using MATLAB and Simulink. It is structured to explore core topics like Kalman Filters, PID control, nonlinear modeling, and simulation of dynamic systems.
 
-## 🔧 Features
-- Custom Kalman Filter implemented using MATLAB Function blocks
-- Mass-Spring-Damper physical simulation as test system
-- Comparison with built-in Simulink Kalman Filter
-- Noise injection for testing robustness
-- Plotting & visualization of estimation vs true values
+---
 
-## 🧠 Concepts
-- State-space modeling
-- Kalman Filter (Predict + Update)
-- Covariance propagation
-- Simulink block design
+## 📂 Project Directory
 
-## 🗂 File Structure
-- `Docs/`: Screenshots and figures
+### 1. 🌀 Kalman Filter - Mass Spring Damper System
+**Path:** `projects/mass_spring_kf/`
 
-## 📊 Results
-![KF Comparison](docs/comparison.png)
+- **Description:** Implements a discrete-time Kalman Filter on a 1-DOF mass-spring-damper system.
+- **Goal:** Estimate position and velocity using noisy measurements and compare with ground truth.
+- **Contents:**
+  - `kf_model.slx` – Simulink implementation
+  - `KF.m` – MATLAB code for custom Kalman filter logic
+  - `figures/` – Estimation result plots
+  - `docs/` – Notes, equations, and reasoning
 
-## 📦 Requirements
-- MATLAB R202x
-- Simulink
-- DSP System Toolbox (optional, for Simulink Kalman Filter block)
+---
 
-## 🚀 Run it
-1. Clone the repo
-2. Open `kalman_custom.slx`
-3. Run the simulation
-4. View results in Scope
+### 2. 🎯 Inverted Pendulum on Cart - PID Control
+**Path:** `projects/inverted_pendulum_pid/`
 
-## 📃 License
-[MIT License](LICENSE)
+- **Description:** Simulates a nonlinear inverted pendulum model and stabilizes it using a PID controller.
+- **Goal:** Maintain pendulum at 180° (upright) using torque input via cart motion.
+- **Features:**
+  - Nonlinear Simulink model
+  - Stabilization via PID
+  - Initial disturbances and upright correction
+
+---
